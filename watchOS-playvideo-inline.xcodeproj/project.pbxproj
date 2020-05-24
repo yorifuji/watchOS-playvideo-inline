@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33AB19B247A55C000761828 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E33AB19A247A55C000761828 /* sample.mp4 */; };
 		E354C536247A4AC100E87104 /* watchOS-playvideo-inline WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E354C535247A4AC100E87104 /* watchOS-playvideo-inline WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E354C53C247A4AC100E87104 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E354C53A247A4AC100E87104 /* Interface.storyboard */; };
 		E354C53E247A4AC200E87104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E354C53D247A4AC200E87104 /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E33AB19A247A55C000761828 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 		E354C531247A4AC100E87104 /* watchOS-playvideo-inline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-playvideo-inline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E354C535247A4AC100E87104 /* watchOS-playvideo-inline WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOS-playvideo-inline WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E354C53B247A4AC100E87104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		E354C548247A4AC200E87104 /* watchOS-playvideo-inline WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E33AB19A247A55C000761828 /* sample.mp4 */,
 				E354C549247A4AC200E87104 /* InterfaceController.swift */,
 				E354C54B247A4AC200E87104 /* ExtensionDelegate.swift */,
 				E354C54D247A4AC200E87104 /* NotificationController.swift */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E354C550247A4AC200E87104 /* Assets.xcassets in Resources */,
+				E33AB19B247A55C000761828 /* sample.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
